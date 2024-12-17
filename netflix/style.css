@@ -1,0 +1,187 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.7);
+    height:700px;
+    width:1535px;
+
+}
+
+.main_page{    
+    height:700px;
+    background-image:url("main_bg.jpg");
+}
+.navbar{
+    padding:24px 48px;
+    height:50px;
+    width:1200px;
+    display: flex;
+    margin:0px 106px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo{
+    background-image:url("netflix_logo.png");
+    height:60px;
+    width:200px;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+
+}
+
+
+.lang{
+    margin-left:800px;
+    display: flex;
+    border:0.5px solid white;
+    padding:6px 15px; 
+    color: white;
+    border-radius:4px;
+    height:20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.options{
+    background:transparent;
+    color:white;
+    font-size:14px;
+    font-weight:500;
+    border:none;
+}
+
+.options :active{
+    color: black;
+}
+
+.signin{
+    margin-left:20px;
+    width:76px;
+    height:32px;
+    background-color:rgb(236, 20, 20);
+    border:0.5px solid rgb(236, 20, 20);
+    border-radius:4px;
+    color:white;
+    font-size:14px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:14px;
+    font-weight:600;
+}
+
+.second_part{
+    height:65px;
+    width:1300px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:130px;
+    margin-top:180px;
+
+}
+.unlimited{
+    height:50px;
+    font-size:48px;
+    font-weight: 1000;
+}
+
+.watch{
+    margin-top:40px;
+    font-size:24px;
+    color: #ffffff;
+    margin-right:5px;
+    font-weight: 300;
+
+}
+
+.ready{
+    margin-top:35px;
+    font-size:20px;
+    font-weight: 300;
+}
+.email{
+    background: none;
+    padding:18px 130px 18px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border-radius:5px;
+}
+.email::placeholder {
+    position: absolute;/* Position the placeholder absolutely */
+    left: 20px;
+    color: #aba6a6;
+    font-size:15px;
+
+}
+
+.get_started{
+    margin-top:20px;
+    display: flex;
+    height:55px;
+    justify-content: center;
+    align-items:center;
+}
+
+.get_started p{
+    background-color:rgb(236, 20, 20);
+    height:px;
+    padding:13px 25px 13px;
+    margin-left:10px;
+    border-radius:5px;
+    font-size: 25px;
+    font-weight:550;
+    margin-left:10px;
+}
+
+.slides{
+    border-top:10px solid rgb(37, 37, 37);
+    height:450px;
+    padding:72px 0px 72px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    margin-left:100px;
+}
+
+
+.caption1{
+    font-size:48px;
+    font-weight: 900;
+}
+.caption2{
+    margin-top:16px;
+    font-size:22px;
+    width:550px
+
+}
+
+.images{
+    height:400px;
+    width:600px;
+    background-size: cover;
+    background-position: center;
+    margin-left:50px;
+}
+
+
+.second_image{
+    margin-bottom:80px;
+    
+}
